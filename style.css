@@ -1,0 +1,239 @@
+/* *************************** */
+/** Universal style             */
+/*******************************/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+/* *************************** */
+/** Menu style             */
+/*******************************/
+
+#menu{
+    background-color: #16a085;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: #ffffff;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #1abc9c;
+}
+
+/* *************************** */
+/** HEADER style             */
+/*******************************/
+
+#header{
+    padding: 60px 0px 40px 0;
+    background-color: #333333;
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1rem;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+#header p{
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+}
+
+/* *************************** */
+/** Banner style             */
+/*******************************/
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* *************************** */
+/** Page            */
+/*******************************/
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16a085;
+}
+
+/* CONTENT  */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+/*  SIDEBAR  */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+/*  Lists */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/* *************************** */
+/** Footer            */
+/*******************************/
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* *************************** */
+/** Copyright            */
+/*******************************/
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #16a085;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* *************************** */
+/** Gallery            */
+/*******************************/
+
+#gallery img{
+    width: 120px;
+    margin: 12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover{
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
